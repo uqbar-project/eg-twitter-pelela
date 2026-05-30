@@ -1,0 +1,19 @@
+<div class="card">
+  <h1>Twitter en Pelela</h1>
+
+  <pelela view-model="Twitter">
+    <div class="input-group">
+      <label for="tweet-input">Tweet</label>
+      <textarea 
+        id="tweet-input"
+        bind-value="tweet"
+        placeholder="¿Qué estás pensando?"
+        rows="3">
+      </textarea>
+    </div>
+
+    <div class="result" bind-class="claseTweet">
+      <span bind-content="cantidadCaracteresRestantes"></span>
+    </div>
+  </pelela>
+</div>
