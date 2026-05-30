@@ -13,7 +13,6 @@ export class Twitter {
         return 'ok'
     }
   }
-
 }
 
 class Tweet {
