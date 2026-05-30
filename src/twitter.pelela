@@ -6,14 +6,14 @@
       <label for="tweet-input">Tweet</label>
       <textarea 
         id="tweet-input"
-        bind-value="tweet"
+        bind-value="tweet.texto"
         placeholder="¿Qué estás pensando?"
         rows="3">
       </textarea>
     </div>
 
     <div class="result" bind-class="claseTweet">
-      <span bind-content="cantidadCaracteresRestantes"></span>
+      <span bind-content="tweet.cantidadCaracteresRestantes"></span>
     </div>
   </pelela>
 </div>
