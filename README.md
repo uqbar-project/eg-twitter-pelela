@@ -33,7 +33,7 @@ Ya sabés que Pelela trabaja con una tríada en la carpeta `src`. Aquí tenemos
 
 ## Cobertura de nuestro view model
 
-En este repositorio agregamos un script en el `package.json` para poder conocer la cobertura de nuestros tests unitarios:
+En este repositorio agregamos un script en el `package.json` para poder conocer la cobertura de [nuestros tests unitarios](./src/twitter.test.ts) que son similares a los que ya conociste de Algoritmos I y II.
 
 ```bash
 pnpm test:coverage
