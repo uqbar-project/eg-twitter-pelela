@@ -1,6 +1,6 @@
 #  Twitter Pelela
 
-[![CI](https://github.com/uqbar-project/eg-twitter-pelela/actions/workflows/ci.yml/badge.svg)](https://github.com/uqbar-project/eg-twitter-pelela/actions/workflows/ci.yml)
+[![CI](https://github.com/uqbar-project/eg-twitter-pelela/actions/workflows/ci.yml/badge.svg)](https://github.com/uqbar-project/eg-twitter-pelela/actions/workflows/ci.yml) [![codecov](https://codecov.io/gh/uqbar-project/eg-twitter-pelela/graph/badge.svg?token=g8VgUEGQwq)](https://codecov.io/gh/uqbar-project/eg-twitter-pelela)
 
 ## 🚀 Cómo ejecutarlo
 
