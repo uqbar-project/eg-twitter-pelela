@@ -29,7 +29,7 @@ Ya sabés que Pelela trabaja con una tríada en la carpeta `src`. Aquí tenemos
 - `twitter.css`: Los estilos dedicados para este componente
 - `twitter.ts`: aquí separamos **el modelo de la vista o view model** (Twitter) y el modelo de negocio, a partir de la clase `Tweet`. Eso nos permite usar vitest para armar tests del tweet sin necesidad de meternos en los tests de frontend, que veremos en la próxima tecnología
 
-![mvvm twitter](./images/mvvm-twitter.png)
+![mvvm twitter](./images/mvvm-twitter-ok.png)
 
 ## Cobertura de nuestro view model
 
