@@ -8,8 +8,7 @@
         id="tweet-input"
         bind-value="tweet.texto"
         placeholder="¿Qué estás pensando?"
-        rows="3">
-      </textarea>
+        rows="3"></textarea>
     </div>
 
     <div class="result" bind-class="claseTweet">
