@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       pelelajs:
-        specifier: 1.0.1
-        version: 1.0.1
+        specifier: 1.0.2
+        version: 1.0.2
     devDependencies:
       '@biomejs/biome':
         specifier: 2.3.8
@@ -28,8 +28,8 @@ importers:
         specifier: 7.3.5
         version: 7.3.5
       vite-plugin-pelelajs:
-        specifier: 1.0.1
-        version: 1.0.1(vite@7.3.5)
+        specifier: 1.0.2
+        version: 1.0.2(vite@7.3.5)
       vitest:
         specifier: ^4.1.7
         version: 4.1.9(@vitest/coverage-v8@4.1.9)(jsdom@29.1.1)(vite@7.3.5)
@@ -702,8 +702,8 @@ packages:
   pathe@2.0.3:
     resolution: {integrity: sha512-WUjGcAqP1gQacoQe+OBJsFA7Ld4DyXuUIjZ5cc75cLHvJ7dtNsTugphxIADwspS+AraAUePCKrSVtPLFj/F88w==}
 
-  pelelajs@1.0.1:
-    resolution: {integrity: sha512-RNItz+dZKW44l/Rp7R9jcKWHdemK2A2ZV+Mc8loJVJbWN+kK8dFmBXhEqBdHjHloxUZ9rSilOdKQTeCbif0LUg==}
+  pelelajs@1.0.2:
+    resolution: {integrity: sha512-D67yZ/BJXpAECspyYSWqsFp2G4MhC/2t413InCDt3EqwL+Ab28UK1VbNhkv/d/1HqGcTDzMQniFezABiInPe+Q==}
     hasBin: true
 
   picocolors@1.1.1:
@@ -774,11 +774,11 @@ packages:
     resolution: {integrity: sha512-Bf+ILmBgretUrdJxzXM0SgXLZ3XfiaUuOj/IKQHuTXip+05Xn+uyEYdVg0kYDipTBcLrCVyUzAPz7QmArb0mmw==}
     engines: {node: '>=14.0.0'}
 
-  tldts-core@7.4.3:
-    resolution: {integrity: sha512-27ep5H9PzdBrNd5OFM/j3WCU8F3kPwM9D0BOaOf7uYfxMJfyr0K5Tjj69Gri+sZlh2WXd5buIm47NuPF29CDiw==}
+  tldts-core@7.4.4:
+    resolution: {integrity: sha512-vwVLJVvvpslm7vqAH7+XNj/neA/Ynq7DT2EEcMuwc5YzN5XaMyRAqxwU+uX3azZ1FQtB2gvrvnLnAEkvYlVdfg==}
 
-  tldts@7.4.3:
-    resolution: {integrity: sha512-A3BDQBeeukYPzB4QdQ1DtdlUmp4x2OCH8n5UVhEWbyANxNep8GavottKzd1xYKFJKjUgMyPT7EzOfnBO55s8Sg==}
+  tldts@7.4.4:
+    resolution: {integrity: sha512-kFXFK7O4WPextIUAOk8qtnw9dxR9UIXP9CjuH1cTBVBZMDeQcUPgr/IazGiw1B0Yiw5L75gHLWeW4iD793r90g==}
     hasBin: true
 
   tough-cookie@6.0.1:
@@ -804,8 +804,8 @@ packages:
     resolution: {integrity: sha512-cRZYrTDwWznlnRiPjggAGxZXanty6M8RV1ff8Wm4LWXBp7/IG8v5DnOm74DtUBp9OONpK75YlPnIjQqX0dBDtA==}
     engines: {node: '>=20.18.1'}
 
-  vite-plugin-pelelajs@1.0.1:
-    resolution: {integrity: sha512-5A9s7lxkVQ7TQAG9nSYsoZrdkMk2bCulbRrJFSmRfxxTnV04lmfVwirBBTBThdr2EWuMdCgWxs1tCLtuc7e3wQ==}
+  vite-plugin-pelelajs@1.0.2:
+    resolution: {integrity: sha512-CAKsWRJyc/U7yMay9iX3YKjcvaBsRLvOC/r7EuiBD0sOLMVyxpmsLRPrq4GFBQHFK9SXovEV6i2hCKiK3IaKiQ==}
     peerDependencies:
       vite: ^7.2.4
 
@@ -1441,7 +1441,7 @@ snapshots:
 
   pathe@2.0.3: {}
 
-  pelelajs@1.0.1:
+  pelelajs@1.0.2:
     dependencies:
       chalk: 5.6.2
       cli-box: 6.0.11
@@ -1525,15 +1525,15 @@ snapshots:
 
   tinyrainbow@3.1.0: {}
 
-  tldts-core@7.4.3: {}
+  tldts-core@7.4.4: {}
 
-  tldts@7.4.3:
+  tldts@7.4.4:
     dependencies:
-      tldts-core: 7.4.3
+      tldts-core: 7.4.4
 
   tough-cookie@6.0.1:
     dependencies:
-      tldts: 7.4.3
+      tldts: 7.4.4
 
   tr46@6.0.0:
     dependencies:
@@ -1552,9 +1552,9 @@ snapshots:
 
   undici@7.28.0: {}
 
-  vite-plugin-pelelajs@1.0.1(vite@7.3.5):
+  vite-plugin-pelelajs@1.0.2(vite@7.3.5):
     dependencies:
-      pelelajs: 1.0.1
+      pelelajs: 1.0.2
       vite: 7.3.5
 
   vite@7.3.5:
